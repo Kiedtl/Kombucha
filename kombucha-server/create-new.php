@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "id7211538_root";
-$password = "bda2kj4iy";
+$servername = "servrnme";
+$username = "usrnme";
+$password = "********";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -11,19 +11,20 @@ if ($conn->connect_error) {
     die("Error K0001: Database Not Found:" . $conn->connect_error);
 } 
 //echo "Connected successfully";
-$author = $_POST["author"];
-$author = $_POST["homepage"];
-$author = $_POST["culture"];
-$package_name = $_POST["name"];
-$email = $_POST["email"];
+$author = mysql_real_escape_string($_GET["author"]);
+$homepage =  mysql_real_escape_string($_GET["homepage"]);
+$culture =  mysql_real_escape_string($_GET["culture"]);
+$package_name =  mysql_real_escape_string($_GET["name"]);
+$email =  mysql_real_escape_string($_GET["email"]);
+$repo =  mysql_real_escape_string($_GET["repo"]);
 
 $sql = "INSERT INTO packages (author, email, package-name, culture, homepage, repo)
-VALUES (, 'Doe', 'john@example.com')";
+VALUES ($author, $email, $package_name, $culture, $homepage, $repo)";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Success! New package created.";
+    echo "Success! New package $package_name created.";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error K0002: " . $sql . "<br>" . $conn->error . ". || Please report this error.";
 }
 
 
