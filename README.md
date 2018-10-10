@@ -1,10 +1,12 @@
-﻿# 🥃 Kombucha 🥃
+# 🥃 Kombucha 🥃
 
 The missing package manager for Windows
 
 * * *
 
 ## What is Kombucha?
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKiedtl%2FKombucha.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FKiedtl%2FKombucha?ref=badge_shield)
+
 
 Kombucha is a command-line installer and uninstaller, much like [Homebrew](https://brew.sh/) or [Scoop](https://scoop.sh/). Kombucha was created with the goal of having a easy-to-use command-line utility that could be used to install a tool. Kombucha tries, like Scoop, to do away with UAC popups, installation wizards, MSI files, and kitten roasting.
 
@@ -57,6 +59,9 @@ The app manifest will look something like this:
     "executable": "bin/yummy-cake-start.exe"
 }
 ```
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKiedtl%2FKombucha.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKiedtl%2FKombucha?ref=badge_large)
 
 ### Shelves
 
