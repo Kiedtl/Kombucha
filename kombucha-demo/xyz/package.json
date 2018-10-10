@@ -1,0 +1,24 @@
+{
+  "name": "XyZ",
+  "version": "1.0.0",
+  "description": "A sample Kombucha package",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --overwrite --platform=win32 --arch=x64 --arch=ia32 --out=build/win32/"
+  },
+  "repository": "https://github.com/kiedtl/xyz/",
+  "keywords": [
+    "Kombucha",
+    "sample",
+    "package",
+    "manager",
+    "windows"
+  ],
+  "author": "Eliyahu Georgios",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.2.0"
+  }
+}

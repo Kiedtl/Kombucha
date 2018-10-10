@@ -1,0 +1,5 @@
+appId: xyz.xyz.xyz
+electronVersion: 2.0.8
+win:
+  target: 
+    - zip

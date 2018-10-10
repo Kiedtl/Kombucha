@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kombucha", "Kombucha\Kombucha.csproj", "{EEE20CFE-3202-49D3-A770-B9ADA8B2E572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE20CFE-3202-49D3-A770-B9ADA8B2E572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE20CFE-3202-49D3-A770-B9ADA8B2E572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE20CFE-3202-49D3-A770-B9ADA8B2E572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE20CFE-3202-49D3-A770-B9ADA8B2E572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A8602E-1329-49C2-83CB-DB567DFC898A}
+	EndGlobalSection
+EndGlobal
