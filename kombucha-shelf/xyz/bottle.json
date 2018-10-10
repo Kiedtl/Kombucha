@@ -1,0 +1,25 @@
+{
+    "name": "xyz",
+    "title": "XyZ",
+    "homepage": "https://github.com/Kiedtl/Kombucha/kombucha-demo/xyz/",
+    "description": "A sample bottle for Kombucha.",
+    "author": "Eliyahu Georgios (@Kiedtl)",
+    "readme": "null",
+    "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+    },
+    "latestversion": "1.0.0",
+    "type": "ZIP",
+    "architecture": {
+        "x64": {
+            "url": "https://github.com/Kiedtl/Kombucha/kombucha-demo/xyz/build/win32/XyZ-win32-x64/xyz.zip?raw=true",
+            "hash": ""
+        },
+        "x86": {
+            "url": "https://github.com/Kiedtl/Kombucha/kombucha-demo/xyz/build/win32/XyZ-win32-ia32/xyz-x32.zip?raw=true",
+            "hash": ""
+        }
+    },
+    "executable": "XyZ.exe"
+}
