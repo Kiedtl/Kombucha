@@ -25,18 +25,16 @@
 
 ## Internal Errors
 
-| Code  | Name                           | Description                                                                       | Fix                     |
-| ----- | ------------------------------ | --------------------------------------------------------------------------------- | ----------------------- |
-| K0001 | Database Not Found             | Kombucha was unable to connect to database on kombucha-internal-000webhostapp.com | Please report this bug. |
-| K0002 | Unknown Package Creation Error | An error occurred when kombucha tried to create a package.                        | Please report this bug. |
-| K0001 |                                |                                                                                   |                         |
+| Code  | Name | Description | Fix |
+| ----- | ---- | ----------- | --- |
+| K0001 |      |             |     |
 
 ## Error Syntax
 
 -   First syntax:
 
     -   `<ERROR DESCRIPTION> \n <ERROR CODE> \n <ERROR DETAILS>`
-    -   Example: `Kombucha does not have permission to access the directory of file "myfile.sml" at the path of  \"" + cultureFile + "\". \nError code: KE000.\nError details: "`
+    -   Example: `Kombucha does not have permission to access the directory of file "myfile" at the path of  \"" + file + "\". \nError code: KE000.\nError details: "`
 
 -   Second syntax:
     -   `\n <ERROR CODE> : <ERROR DESCRIPTION OR DETAILS>`
