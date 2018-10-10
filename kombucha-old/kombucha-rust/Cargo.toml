@@ -1,8 +1,0 @@
-[package]
-name = "kombucha"
-version = "0.1.0"
-authors = ["Eliyahu Georgios <eli.georgios@gmail.com>"]
-
-[dependencies]
-hyper = "0.12"
-sha3 = "0.7.3"
