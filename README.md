@@ -1,4 +1,4 @@
-# 🥃 Kombucha 🥃
+﻿# 🥃 Kombucha 🥃
 
 The missing package manager for Windows
 
@@ -12,7 +12,7 @@ Kombucha is a command-line installer and uninstaller, much like [Homebrew](https
 
 ### Bottles
 
-Bottles are just Kombucha-jargon for a bottle or app. Bottles are stored in this repository in the `kombucha-bottles` directory. When you request an app to be installed, Kombucha looks up the `bottle.json` app manifest file in the `kombucha-shelf/<app-name>/` directory. The `bottle.json` file contains the following information:
+Bottles are just Kombucha-jargon for a bottle or app. Bottles are stored in this repository in the `kombucha-bottles` directory. When you request an app to be installed, Kombucha looks up the `bottle.json` app manifest file in the `shelf/<app-name>/` directory. The `bottle.json` file contains the following information:
 
 -   TITLE
 -   NAME
@@ -60,7 +60,7 @@ The app manifest will look something like this:
 
 ### Shelves
 
-Similar to Buckets in Scoop, Shelves are Git repositories somewhere up in the cloud that are stuffed with app manifests (i.e. `bottle.json` files) for bottles that you can download and install. The main Shelf is located in this repository in the `kombucha-shelf` directory. You can create your own shelf.
+Similar to Buckets in Scoop, Shelves are Git repositories somewhere up in the cloud that are stuffed with app manifests (i.e. `bottle.json` files) for bottles that you can download and install. The main Shelf is located in this repository in the `shelf` directory. You can create your own shelf.
 
 ## What can I do in Kombucha?
 
