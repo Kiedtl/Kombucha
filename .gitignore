@@ -1,2 +1,4 @@
-/target
-**/*.rs.bk
+/kombucha-demo/xyz/node_modules
+/kombucha-demo/xyz/build
+/kombucha-demo/demo/node_modules
+/kombucha-demo/demo/build
